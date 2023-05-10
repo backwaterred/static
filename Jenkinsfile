@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Check system') {
             steps {
-                sh "echo $(uname -a)"
+                sh "echo \$(uname -a)"
             }
         }
     }
